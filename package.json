@@ -1,0 +1,18 @@
+{
+  "name": "abort-api-vs-promise-race",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node src/server.js",
+    "promise-race": "node --experimental-fetch --no-warnings src/01-promise-race.js",
+    "abort-api": "node --experimental-fetch --no-warnings src/02-abort-api.js"
+  },
+  "keywords": [],
+  "author": "Yago Neno",
+  "license": "ISC",
+  "engines": {
+    "node": "17.5.0"
+  }
+}
